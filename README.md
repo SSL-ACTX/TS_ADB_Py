@@ -1,9 +1,9 @@
-# TS_ADB_Py API Documentation
+# TS_ADB_Py
 
 ![ADB API](https://img.shields.io/badge/ADB-API-blue?style=flat-square)
 ![Python](https://img.shields.io/badge/Python-3.x-blue?style=flat-square)
 
-An elegant API for interacting with Android devices using ADB commands. This project simplifies the management and retrieval of device information, making it easier for developers and enthusiasts to work with Android devices programmatically.
+An elegant API for interacting with Android devices using ADB commands. This project simplifies the management and retrieval of device information.
 
 ## Features
 
