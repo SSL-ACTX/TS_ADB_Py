@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TS_ADB_Py API Documentation</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/heroicons@1.0.6/outline.js" defer></script>
+</head>
+<body class="bg-gray-100 font-sans leading-normal tracking-normal">
+    <header class="bg-white shadow">
+        <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
+            <h1 class="text-3xl font-bold text-gray-900">TS_ADB_Py API Documentation</h1>
+            <p class="mt-2 text-sm text-gray-600">An API for interacting with Android devices via ADB commands.</p>
+        </div>
+    </header>
+
+    <main class="max-w-7xl mx-auto mt-10 px-4 sm:px-6 lg:px-8">
+        <div class="py-6">
+            <h2 class="text-2xl font-semibold text-gray-800">API Endpoints</h2>
+            <div class="mt-4">
+                <div class="bg-white shadow rounded-lg overflow-hidden">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-lg text-gray-800">GET /adb/cpu</h3>
+                        <p>Get CPU usage statistics from the connected Android device.</p>
+                    </div>
+                </div>
+
+                <div class="bg-white shadow rounded-lg overflow-hidden mt-4">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-lg text-gray-800">GET /adb/battery</h3>
+                        <p>Get battery usage statistics from the connected Android device.</p>
+                    </div>
+                </div>
+
+                <div class="bg-white shadow rounded-lg overflow-hidden mt-4">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-lg text-gray-800">GET /adb/device_info</h3>
+                        <p>Get device information from the connected Android device.</p>
+                    </div>
+                </div>
+
+                <div class="bg-white shadow rounded-lg overflow-hidden mt-4">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-lg text-gray-800">GET /adb/memory</h3>
+                        <p>Get memory usage statistics from the connected Android device.</p>
+                    </div>
+                </div>
+
+                <div class="bg-white shadow rounded-lg overflow-hidden mt-4">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-lg text-gray-800">GET /adb/packages</h3>
+                        <p>Get a list of installed packages from the connected Android device.</p>
+                    </div>
+                </div>
+
+                <div class="bg-white shadow rounded-lg overflow-hidden mt-4">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-lg text-gray-800">GET /adb/model</h3>
+                        <p>Get the device model and Android version.</p>
+                    </div>
+                </div>
+
+                <div class="bg-white shadow rounded-lg overflow-hidden mt-4">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-lg text-gray-800">GET /adb/network</h3>
+                        <p>Get network information from the connected Android device.</p>
+                    </div>
+                </div>
+
+                <div class="bg-white shadow rounded-lg overflow-hidden mt-4">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-lg text-gray-800">GET /adb/storage</h3>
+                        <p>Get storage information from the connected Android device.</p>
+                    </div>
+                </div>
+
+                <div class="bg-white shadow rounded-lg overflow-hidden mt-4">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-lg text-gray-800">GET /adb/logcat</h3>
+                        <p>Get the logcat output from the connected Android device.</p>
+                    </div>
+                </div>
+
+                <div class="bg-white shadow rounded-lg overflow-hidden mt-4">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-lg text-gray-800">GET /adb/sensors</h3>
+                        <p>Get sensor information from the connected Android device.</p>
+                    </div>
+                </div>
+
+                <div class="bg-white shadow rounded-lg overflow-hidden mt-4">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-lg text-gray-800">GET /adb/running_apps</h3>
+                        <p>Get a list of currently running apps from the connected Android device.</p>
+                    </div>
+                </div>
+
+                <div class="bg-white shadow rounded-lg overflow-hidden mt-4">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-lg text-gray-800">GET /adb/version</h3>
+                        <p>Get the ADB version.</p>
+                    </div>
+                </div>
+
+                <div class="bg-white shadow rounded-lg overflow-hidden mt-4">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-lg text-gray-800">GET /adb/services</h3>
+                        <p>Get a list of running services from the connected Android device.</p>
+                    </div>
+                </div>
+
+                <div class="bg-white shadow rounded-lg overflow-hidden mt-4">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-lg text-gray-800">GET /adb/wifi_status</h3>
+                        <p>Get the Wi-Fi connection status of the connected Android device.</p>
+                    </div>
+                </div>
+
+                <div class="bg-white shadow rounded-lg overflow-hidden mt-4">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-lg text-gray-800">GET /adb/connected_devices</h3>
+                        <p>Get a list of connected USB devices.</p>
+                    </div>
+                </div>
+
+                <div class="bg-white shadow rounded-lg overflow-hidden mt-4">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-lg text-gray-800">GET /adb/packages_info</h3>
+                        <p>Get detailed information about all installed packages.</p>
+                    </div>
+                </div>
+
+                <div class="bg-white shadow rounded-lg overflow-hidden mt-4">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-lg text-gray-800">GET /adb/uptime</h3>
+                        <p>Get the uptime of the connected Android device.</p>
+                    </div>
+                </div>
+
+                <div class="bg-white shadow rounded-lg overflow-hidden mt-4">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-lg text-gray-800">GET /adb/app_permissions/<span class="text-indigo-600">package_name</span></h3>
+                        <p>Get permissions granted to a specific app.</p>
+                    </div>
+                </div>
+
+                <div class="bg-white shadow rounded-lg overflow-hidden mt-4">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-lg text-gray-800">GET /adb/screenshot</h3>
+                        <p>Take a screenshot of the device and return the image data in base64.</p>
+                    </div>
+                </div>
+
+                <div class="bg-white shadow rounded-lg overflow-hidden mt-4">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-lg text-gray-800">POST /adb/reboot</h3>
+                        <p>Reboot the connected Android device.</p>
+                    </div>
+                </div>
+
+                <div class="bg-white shadow rounded-lg overflow-hidden mt-4">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-lg text-gray-800">POST /adb/logcat_clear</h3>
+                        <p>Clear the logcat buffer.</p>
+                    </div>
+                </div>
+
+                <div class="bg-white shadow rounded-lg overflow-hidden mt-4">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-lg text-gray-800">GET /adb/bt_status</h3>
+                        <p>Get Bluetooth status information.</p>
+                    </div>
+                </div>
+
+                <div class="bg-white shadow rounded-lg overflow-hidden mt-4">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-lg text-gray-800">GET /adb/location</h3>
+                        <p>Get device location services status.</p>
+                    </div>
+                </div>
+
+                <div class="bg-white shadow rounded-lg overflow-hidden mt-4">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-lg text-gray-800">GET /adb/installed_apps</h3>
+                        <p>Get a list of all installed apps with details.</p>
+                    </div>
+                </div>
+
+                <div class="bg-white shadow rounded-lg overflow-hidden mt-4">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-lg text-gray-800">POST /adb/set_property/<span class="text-indigo-600">property_name</span>/<span class="text-indigo-600">value</span></h3>
+                        <p>Set a system property on the connected Android device.</p>
+                    </div>
+                </div>
+
+                <div class="bg-white shadow rounded-lg overflow-hidden mt-4">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-lg text-gray-800">GET /adb/usage_stats</h3>
+                        <p>Get app usage statistics from the connected Android device.</p>
+                    </div>
+                </div>
+
+                <div class="bg-white shadow rounded-lg overflow-hidden mt-4">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-lg text-gray-800">GET /adb/brightness</h3>
+                        <p>Get the current screen brightness level.</p>
+                    </div>
+                </div>
+
+                <div class="bg-white shadow rounded-lg overflow-hidden mt-4">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-lg text-gray-800">POST /adb/set_brightness/<span class="text-indigo-600">int:value</span></h3>
+                        <p>Set the screen brightness level (0-255).</p>
+                    </div>
+                </div>
+
+                <div class="bg-white shadow rounded-lg overflow-hidden mt-4">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-lg text-gray-800">GET /adb/airplane_mode</h3>
+                        <p>Get the airplane mode status of the connected Android device.</p>
+                    </div>
+                </div>
+
+                <div class="bg-white shadow rounded-lg overflow-hidden mt-4">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-lg text-gray-800">POST /adb/set_airplane_mode/<span class="text-indigo-600">int:value</span></h3>
+                        <p>Enable or disable airplane mode on the connected Android device.</p>
+                    </div>
+                </div>
+
+                <div class="bg-white shadow rounded-lg overflow-hidden mt-4">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-lg text-gray-800">GET /adb/notifications</h3>
+                        <p>Get the current notifications on the connected Android device.</p>
+                    </div>
+                </div>
+
+                <div class="bg-white shadow rounded-lg overflow-hidden mt-4">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-lg text-gray-800">POST /adb/kill_app/<span class="text-indigo-600">package_name</span></h3>
+                        <p>Kill a running app by its package name.</p>
+                    </div>
+                </div>
+
+                <div class="bg-white shadow rounded-lg overflow-hidden mt-4">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-lg text-gray-800">POST /adb/install_app</h3>
+                        <p>Install an APK from the local machine to the connected Android device.</p>
+                        <p><strong>Body:</strong> { "apk_path": "path/to/apk" }</p>
+                    </div>
+                </div>
+
+                <div class="bg-white shadow rounded-lg overflow-hidden mt-4">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-lg text-gray-800">POST /adb/uninstall_app/<span class="text-indigo-600">package_name</span></h3>
+                        <p>Uninstall an app by its package name.</p>
+                    </div>
+                </div>
+
+                <div class="bg-white shadow rounded-lg overflow-hidden mt-4">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-lg text-gray-800">GET /adb/media_volume</h3>
+                        <p>Get the current media volume level on the connected Android device.</p>
+                    </div>
+                </div>
+
+                <div class="bg-white shadow rounded-lg overflow-hidden mt-4">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-lg text-gray-800">POST /adb/set_media_volume/<span class="text-indigo-600">int:value</span></h3>
+                        <p>Set the media volume level (0-15) on the connected Android device.</p>
+                    </div>
+                </div>
+
+                <div class="bg-white shadow rounded-lg overflow-hidden mt-4">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-lg text-gray-800">GET /adb/foreground_activity</h3>
+                        <p>Get the currently foreground app on the connected Android device.</p>
+                    </div>
+                </div>
+
+                <div class="bg-white shadow rounded-lg overflow-hidden mt-4">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-lg text-gray-800">POST /adb/clear_app_data/<span class="text-indigo-600">package_name</span></h3>
+                        <p>Clear data for a specific app by package name.</p>
+                    </div>
+                </div>
+
+                <div class="bg-white shadow rounded-lg overflow-hidden mt-4">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-lg text-gray-800">POST /adb/clear_cache</h3>
+                        <p>Clear the cache for all apps on the connected Android device.</p>
+                    </div>
+                </div>
+
+                <div class="bg-white shadow rounded-lg overflow-hidden mt-4">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-lg text-gray-800">GET /adb/device_ip</h3>
+                        <p>Get the device's IP address.</p>
+                    </div>
+                </div>
+
+                <div class="bg-white shadow rounded-lg overflow-hidden mt-4">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-lg text-gray-800">GET /adb/system_time</h3>
+                        <p>Get the current system time on the connected Android device.</p>
+                    </div>
+                </div>
+
+                <div class="bg-white shadow rounded-lg overflow-hidden mt-4">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-lg text-gray-800">GET /adb/net_info</h3>
+                        <p>Get the current network information from the connected Android device.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-white shadow mt-10">
+        <div class="max-w-7xl mx-auto py-4 px-4 sm:px-6 lg:px-8 text-center text-gray-600">
+            <p>&copy; 2024 TS_ADB_Py API Documentation. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
